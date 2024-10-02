@@ -43,13 +43,15 @@ elif answer == '7':
      print("wrong")
 
 
-else: print("shame on you, Exiting the game. Goodbye!")
-exit();
+else:
+    print("Shame on you, Exiting the game. Goodbye!")
+    exit()
+
 pass
 
 
 
-quest1 = 'will israel attack iraq?'
+quest1= 'will israel attack iraq?'
 
 
 user= input("if you want to contniue press 2: ")
@@ -71,6 +73,7 @@ print(optionss)
 answer1 = input ("type down: ")
 if answer1 =='yes':
     print("correct")
+
 elif answer1 =='no':
      print("wrong")
 elif answer1 =='maybe':
@@ -88,7 +91,30 @@ if user2 == '3':
 
 
 
+options2=[    'Yes'    ,    'No'   ,    'Maybe'   ,    'Never'   ]
+print(options2)
+
+answer3 = input ("type down: ")
+if answer3 =='yes':
+    print("correct")
+
+elif answer3 =='no':
+     print("wrong")
+elif answer3 =='maybe':
+     print("correct")
+elif answer3 == 'never':
+     print("wrong")
+else: print("shame on you")
+
+pass
 
 
+math= "2*4?"
+quest3= 'how many legs do human have?'
+user3= input("if you want math quiz press 1, if you want only quiz game press 4: ")
+if user2 == '4':
+    print(quest3)
+elif user3== "1":
+    print(math)
 
 #root.mainloop()
